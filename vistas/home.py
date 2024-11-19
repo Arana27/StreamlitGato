@@ -51,7 +51,7 @@ Usas herramientas de software antiguas o poco eficientes o procesos en los que u
     )
         with imagen_columna:
             image_path = "./Imagenes/PJ.jpeg"
-            lottie_path = "./animation/Animation.json"
+            lottie_path = "./animation/Ani.json"
             try:
                 image = Image.open(image_path)
                 st.image(image, "Imagen cargada correctamente")
@@ -81,7 +81,7 @@ with texto_columna:
     st.write("[Ver servicios >](https://share.streamlit.io/user/arana27)")
     
     with imagen_columna:
-        lottie_path = "./animation/sds.json"
+        lottie_path = "./animation/Ani.json"
         try:
             animation = get(lottie_path)
             st_lottie(animation)
